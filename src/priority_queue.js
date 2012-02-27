@@ -125,6 +125,22 @@
       push: function(object, priority) {
         contents.push({object: object, priority: priority});
         sorted = false;
+      },
+      /**
+       * Iterates over each queued object and calls given callback
+       *
+       * @member PriorityQueue
+       * @param  function callback to be executed
+       */
+      each: function(callback) {
+        if(!sorted) {
+          sort();
+        }
+
+        var idx;
+        for(idx in contents) {
+          callback(contents[idx]);
+        }
       }
     };
 
