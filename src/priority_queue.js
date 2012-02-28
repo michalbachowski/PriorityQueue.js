@@ -139,7 +139,7 @@
 
         var idx;
         for(idx in contents) {
-          callback(contents[idx]);
+          callback(contents[idx].object);
         }
       }
     };
