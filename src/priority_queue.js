@@ -139,7 +139,9 @@
 
         var idx;
         for(idx in contents) {
-          callback(contents[idx].object);
+          if (callback.hasOwnProperty(idx)) {
+            callback(contents[idx].object);
+          }
         }
       }
     };
