@@ -1,0 +1,33 @@
+{
+    "name": "priority-queue",
+    "version": "0.1.0",
+    "author": "Daniel X Moore <yahivin@gmail.com>",
+    "description": "simple priority queue",
+    "contributors": [
+        {
+            "name": "Michał Bachowski",
+            "email": "michal@bachowski.pl"
+        }
+    ],
+    "main": "./src/priority_queue.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/STRd6/PriorityQueue.js.git"
+    },
+    "keywords": [
+        "simple",
+        "priority",
+        "queue"
+    ],
+    "dependencies": {
+        "amdefine": "~0.0.4"
+    },
+    "devDependencies": {
+        "mocha": "~1.8.1",
+        "chai": "~1.5.0"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": "0.6.8"
+    }
+}
