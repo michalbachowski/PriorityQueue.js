@@ -1,8 +1,10 @@
-== Description ==
+Description
+===========
 
 Ever need a simple priority queue? I sure as hell did. JavaScript doesn't make sharing code easy, so I'm going the extra mile to bring you this: PriorityQueue.js.
 
-== Features ==
+Features
+--------
 
 * Simple to use and understand.
 * Creates a single PriorityQueue constructor.
@@ -10,10 +12,12 @@ Ever need a simple priority queue? I sure as hell did. JavaScript doesn't make s
 * Offers both highest first and lowest first ordering.
 * Test suite included.
 
-The default is highest priority first, but when doing something like A* you want lowest priority first... it handles it: `queue = PriorityQueue({low: true});` Boom!
+The default is highest priority first, but when doing something like A\* you want lowest priority first... it handles it: `queue = PriorityQueue({low: true});` Boom!
 
-== Example Usage ==
+Example Usage
+------------
 
+```javascript
 // Highest priority first
 var queue = PriorityQueue();
 
@@ -31,7 +35,9 @@ queue.push("y", 10);
 
 queue.pop(); // => "x"
 queue.pop(); // => "y"
+```
 
-== License ==
+License
+-------
 
 MIT
