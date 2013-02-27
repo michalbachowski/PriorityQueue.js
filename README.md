@@ -18,6 +18,8 @@ Example Usage
 ------------
 
 ```javascript
+var PriorityQueue = require('priority-queue');
+
 // Highest priority first
 var queue = PriorityQueue();
 
