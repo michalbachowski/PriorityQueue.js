@@ -63,7 +63,7 @@ define(function(require) {
                 if(element) {
                     return element.object;
                 } else {
-                    return undefined;
+                    return void 0;
                 }
             },
 
@@ -85,7 +85,7 @@ define(function(require) {
                 if(element) {
                     return element.object;
                 } else {
-                    return undefined;
+                    return void 0;
                 }
             },
 
