@@ -1,7 +1,7 @@
 Description
 ===========
 
-Ever need a simple priority queue? I sure as hell did. JavaScript doesn't make sharing code easy, so I'm going the extra mile to bring you this: PriorityQueue.js.
+Ever need a simple priority queue? I sure as hell did. JavaScript doesn't make sharing code easy, so I'm going the extra mile to bring you this: PriorityQueue.js. [![Build Status](https://travis-ci.org/michalbachowski/PriorityQueue.js.png?branch=master)](https://travis-ci.org/michalbachowski/PriorityQueue.js)
 
 Features
 --------
