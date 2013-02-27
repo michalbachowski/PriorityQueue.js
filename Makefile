@@ -1,6 +1,6 @@
 REPORTER ?= dot
 
-all: build test
+all: clean build test
 
 build:
 	node node_modules/requirejs/bin/r.js \
