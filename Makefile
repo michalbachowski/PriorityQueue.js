@@ -14,6 +14,6 @@ clean:
 test:
 	./node_modules/mocha/bin/mocha \
 		--reporter $(REPORTER) \
-		-u bdd
+		-u bdd test/priority_queue.js
 
 .PHONY: all build clean test
