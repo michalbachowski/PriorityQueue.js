@@ -1,7 +1,7 @@
 /*global: node */
 if (typeof define !== 'function') { var define = require('amdefine')(module) }
 
-define(['../src/priority_queue.js', 'chai'], function (PriorityQueue, chai) {
+define(['../src/priority_queue', '../node_modules/chai/chai'], function (PriorityQueue, chai) {
     var assert = chai.assert;
 
     describe('PriorityQueue', function () {
