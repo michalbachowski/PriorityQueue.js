@@ -5,7 +5,7 @@ all: clean build test
 build:
 	node node_modules/requirejs/bin/r.js \
 		-o name=src/priority_queue \
-		out=build/priority-queue.js \
+		out=build/priority_queue.js \
 		baseUrl=.
 
 clean:
