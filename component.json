@@ -1,0 +1,6 @@
+{
+    "name": "priority-queue",
+    "version": "0.1.0",
+    "main": "./build/priority_queue.js",
+    "dependencies": {}
+}
