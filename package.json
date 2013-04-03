@@ -1,5 +1,5 @@
 {
-    "name": "priority-queue",
+    "name": "priority_queue",
     "version": "0.1.0",
     "author": "Daniel X Moore <yahivin@gmail.com>",
     "description": "simple priority queue",
